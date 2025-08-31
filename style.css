@@ -1,9 +1,28 @@
 
 
+
 .head{
     background-color: yellow;
     margin: 0px;
-    padding: 0px;
+    padding: 2% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    float: inline-start;
+}
+
+
+.navbar h1{
+    display: flex;
 }
 
 .navbar ul{
@@ -18,7 +37,7 @@
     color: black;
     text-decoration: none;
     padding: 15px;
-    display: block;
+    display: flex;
     text-align:center;
 }
 
