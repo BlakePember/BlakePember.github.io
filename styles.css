@@ -14,11 +14,20 @@ body.dark {
 }
 
 body{
-    background: var((--bg-dark));
+    background: var(--bg-dark);
     color: var(--text-muted);
 }
 
-button {
+section{
+    display: flex;
+    min-height: 100vh;
+}
+.projects {
+    background: var(--bg);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.projects button {
     background: var(--bg-light);
     padding: 0.5rem 1rem 0.7rem 1rem;
     color: var(--text);
